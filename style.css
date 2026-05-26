@@ -1,3 +1,27 @@
 body {
-  background: green;
+    background-color: #FFA886;
+}
+
+h3 {
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vidBox {
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+    border: 6px solid #c77859;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+#Baner {
+    position: relative;
+    top: 10px;
+    Left: 32.5%;
+    width: 35%;
+    height: 80%;
 }
