@@ -9,8 +9,8 @@ h3 {
 }
 
 .vidBox {
-    width: 50%;
-    height: 400px;
+    width: 40%;
+    height: 450px;
     background-color: aliceblue;
     border: 6px solid #c77859;
     border-radius: 15px;
@@ -21,9 +21,9 @@ h3 {
 #Baner {
     position: relative;
     top: 10px;
-    Left: 30%;
-    width: 40%;
-    height: 80%;
+    Left: 35%;
+    width: 30%;
+    height: 30%;
 }
 
 @media (max-width: 768px) {
