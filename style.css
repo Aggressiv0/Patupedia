@@ -5,23 +5,38 @@ body {
 h3 {
     color:black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 .vidBox {
-    width: 600px;
+    width: 50%;
     height: 400px;
     background-color: aliceblue;
     border: 6px solid #c77859;
     border-radius: 15px;
     text-align: center;
-    margin-top: 40px;
-    margin-left: 30px;
+    margin: 40px auto;
 }
 
 #Baner {
     position: relative;
     top: 10px;
-    Left: 32.5%;
-    width: 35%;
+    Left: 30%;
+    width: 40%;
     height: 80%;
+}
+
+@media (max-width: 768px) {
+    .vidBox {
+        width: 80%;
+        height: 230px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    #Baner {
+        width: 60%;
+        height: 90%;
+        left: 20%;
+    }
 }
